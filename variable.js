@@ -9,7 +9,7 @@
 console.log('hello world!')
 
 
-// 2. Variable (변수)
+// 2. Variable, rw(read/write) (변수)
 
 // 2-1. let (added in ES6)
 let globalName = 'global name'
@@ -34,19 +34,26 @@ age = 4;
 
 
 
-// 2-3. Contants  
+// 2-3. Constant, r(read only)  
+//  use const whenever possible.
+//  only use let if variable needs to change.
+const dayInweek = 7;
+const maxNumber = 5;
+
+// Note!!
+// Immutable data types : primitive types. frozen objects (i.e object.freeze())
+//  Mutable data types : all abjects by default are mutable in JS
 // favor immutable data type always for a few reasons:
 //  - security (보안)
 //  - thread safety 
 //  - reduce human mistakes 
-const dayInweek = 7;
-const maxNumber = 5;
+
+
 
 
 //  3. Variable types
-
 // primitive, single item: number, string, boolean, null, undirined, symbol
-//  object, box container
+// object, box container
 // functino, first-class function
 
 const count = 17;  // integer
