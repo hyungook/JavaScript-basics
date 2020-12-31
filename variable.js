@@ -1,3 +1,5 @@
+'use strict';
+
 // Whole-script strict mode syntax
 // JavaScript is very felxible
 //  flexiblr === dangerous
