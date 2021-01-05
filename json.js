@@ -84,3 +84,7 @@ console.log(obj.birthDate.getDate());
 // 2. JSON Beautifier ( 코드 포맷 정리 )
 // 3. JSON Parser ( object 형태로 확인 가능 )
 // 4. JSON Validator ( 오류 확인 )
+
+
+// *
+// api 활용해서 토이 작업 go~
